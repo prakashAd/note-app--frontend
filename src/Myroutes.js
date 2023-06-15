@@ -10,8 +10,8 @@ const Myroutes = () => {
     <Routes>
       <Route path='/' element={<Home/>}/>
       <Route path='/reactnotes' element={<ReactNotes/>}/>
-        <Route path='/register' element={<Register/>}/>
-        <Route path='/signin' element={<Signin/>}/>
+        {/* <Route path='/register' element={<Register/>}/> */}
+        {/* <Route path='/signin' element={<Signin/>}/> */}
     </Routes>
     </BrowserRouter>
   )

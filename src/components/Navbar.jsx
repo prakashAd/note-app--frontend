@@ -39,10 +39,10 @@ function Navbar () {
         <button className="btn btn-success" type="submit">Search</button>
       </form>
             
-            <div className="col-md-3 fs-4 d-flex justify-content-evenly">
+            {/* <div className="col-md-3 fs-4 d-flex justify-content-evenly">
               <Link to="/register"><i className="bi bi-person-plus"></i></Link>
               <Link to="/signin"><i className="bi bi-box-arrow-in-left"></i></Link>
-            </div>
+            </div> */}
           </div>
         </div>
       </nav>
